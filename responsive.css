@@ -1,0 +1,32 @@
+@media  screen and (max-width:1000px) 
+{
+
+    body{
+        background-color: burlywood;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .slider{
+        height: 51vh;
+    width: 98vw;
+    overflow: scroll;
+    }
+     .card{
+        overflow: hidden;
+    } 
+    .carditems img{
+        width: 84px;
+    }
+    .container{
+        height: 358vh;
+    }
+
+}
